@@ -90,7 +90,6 @@ struct Store {
 
 
 };
-
 int main()
 {
     SetConsoleCP(1251);
@@ -106,5 +105,4 @@ int main()
     order2.ItemAdd(Item("MotherBoard", 9999, 1));
     order2.ItemAdd(Item("CPU", 10500, 1));
     order2.ItemAdd(Item("GPU", 16650, 1));
-
 }
